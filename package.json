@@ -4,6 +4,7 @@
   "description": "Landing page for trillo",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "watch:sass": "node-sass dist/sass/main.scss dist/css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
@@ -21,7 +22,9 @@
     "npm-run-all": "^4.1.1",
     "postcss-cli": "^4.1.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JustasTitovec/website-sass-flexbox.git"
