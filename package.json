@@ -1,10 +1,10 @@
 {
-  "name": "Trillo",
+  "name": "trillo",
   "version": "1.0.0",
   "description": "Landing page for trillo",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "watch:sass": "node-sass dist/sass/main.scss dist/css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
@@ -20,5 +20,14 @@
     "node-sass": "^4.5.3",
     "npm-run-all": "^4.1.1",
     "postcss-cli": "^4.1.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustasTitovec/website-sass-flexbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JustasTitovec/website-sass-flexbox/issues"
+  },
+  "homepage": "https://github.com/JustasTitovec/website-sass-flexbox#readme"
 }
